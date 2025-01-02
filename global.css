@@ -140,7 +140,7 @@ nav ul{
     background-image: url(https://www.sinangagexpress.com/img/about-us/mural.png);  
     box-sizing: border-box;
     height: 60vh;   
-    background-size: contain; /*zooms the thing out*/
+    background-size: cover; /*zooms the thing out UPDATE: CONTAIN*/
     background-repeat: no-repeat;
     background-position: center; /* Centers the image */
   }
