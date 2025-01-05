@@ -1,6 +1,6 @@
 *{
     font-family:"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    
+   
 }
 html, body {
     height: 100%;
@@ -18,7 +18,11 @@ body{
     color: #CA1028;
     font-size: 14px;
     padding: 10px 0px;
+   
     
+  
+    
+    background-color: aqua;
 
      /*   display: flex;
         justify-content: flex-end;
@@ -32,8 +36,7 @@ body{
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    margin-right: 90px; /*move to left a bit*/
-
+    max-width: 1560px;
 }
 
 .nav-top-right li{
@@ -55,7 +58,7 @@ nav ul{
     list-style: none;
     display: flex; /* Use Flexbox to align items horizontally */
     align-items: center; /* Vertically center items */    
-    padding: 0px 80px 0px 80px;
+    padding: 0px 80px;
     margin: 0 auto; /*removed the 14px padding*/
     /*added these lines so the nav stays in the middle even when zoomed out*/
     justify-content: space-between;
@@ -165,10 +168,15 @@ nav ul{
 /*#region all time fave*/
 
 .allTimeFavorite{
-    margin: auto 6vw;
+   
 
     box-sizing: border-box;
-    
+    max-width: 1560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0px 80px; */
+    margin:  auto ;
   
 }
 
@@ -176,15 +184,14 @@ nav ul{
    font-size: 1rem;
     color: white;
     background-color: #CA1028;
-    max-width: max-content;
-   
+    max-width: max-content;   
     padding: 1em;
 }
 
 .flex-container{    
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: stretch; 
     text-align: center;
     margin: 0 auto; 
@@ -274,7 +281,7 @@ nav ul{
 /*#region 4 images*/
 
 #images{
-    margin-top: 8vh;
+    
     gap: 20px;
 }
 
