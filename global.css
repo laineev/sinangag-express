@@ -54,10 +54,12 @@ nav{
 nav ul{
     list-style: none;
     display: flex; /* Use Flexbox to align items horizontally */
-    align-items: center; /* Vertically center items */
-    justify-content: space-between;
+    align-items: center; /* Vertically center items */    
     padding: 0px 80px 0px 80px;
     margin: 0 auto; /*removed the 14px padding*/
+    /*added these lines so the nav stays in the middle even when zoomed out*/
+    justify-content: space-between;
+    max-width: 1560px;
 }
 
 .navbrand, .navbrand:active{
