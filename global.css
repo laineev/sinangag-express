@@ -141,14 +141,22 @@ nav ul{
 /*#endregion*/
 
 /*#region hero banner*/
+
+/*Use this code if you want the hero banenr to crop / retain height on any screen size. html also follows:
+<!--<div class="homepage-banner"></div>-->
 .homepage-banner {
     background-image: url(https://www.sinangagexpress.com/img/about-us/mural.png);  
     box-sizing: border-box;
     height: 60vh;   
-    background-size: cover; /*zooms the thing out UPDATE: CONTAIN*/
-    background-repeat: no-repeat;
+    background-size: contain;  /* Ensure the full image fits inside */
+  /*background-repeat: no-repeat;
     background-position: center; /* Centers the image */
-  }
+ /* }*/
+
+  .homepage-banner img {
+    width: 100%;
+    height: auto;
+}
 
 
 @media (max-width: 768px) {
