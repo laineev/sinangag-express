@@ -13,6 +13,12 @@ body{
 
 p, h2, h3{
     color:#141414  ;
+  
+}
+
+p {
+   
+    line-height: 1.5;
 }
 
   
@@ -22,17 +28,6 @@ p, h2, h3{
     color: #CA1028;
     font-size: 14px;
     padding: 10px 0px;
-   
-    
-  
-    
-    
-
-     /*   display: flex;
-        justify-content: flex-end;
-        padding: 10px 20px;
-        background-color: #f8f8f8;*/
-    
 }
 
 
