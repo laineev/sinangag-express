@@ -309,7 +309,7 @@ nav ul{
     background-image: url('https://www.sinangagexpress.com/img/about-us/kalan.jpg');
    
     background-repeat: no-repeat;
- 
+    max-height: 10px;
     background-size: cover;
     width: 100%;
    
@@ -331,6 +331,6 @@ footer{
 }
 
 footer p{
-  
+    text-align: center;
     color: #FFFFFF;
 }
